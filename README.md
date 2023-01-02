@@ -1,1 +1,1 @@
-# nextjsfeatures
+# Next JS Features exploring
