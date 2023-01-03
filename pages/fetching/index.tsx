@@ -17,6 +17,11 @@ export default function Fetching() {
 				</Link>
 			</h2>
 			<h2 className={styles.fetching}>  
+				<Link href={'/fetching/isr'} className={styles.card}>
+					ISR <span className={styles.arrow}>&#8594;</span>
+				</Link>
+			</h2>
+			<h2 className={styles.fetching}>  
 				<Link href={'/fetching/csr'} className={styles.card}>
 					CSR <span className={styles.arrow}>&#8594;</span>
 				</Link>
