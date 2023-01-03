@@ -11,3 +11,11 @@ export type addressType = {
 	email: string,
 	address: addressType,
   };
+
+  export type postType = {
+	id: number;
+	iserId: number;
+	title: string;
+	body: string;
+	createdAt?: string;
+  }
