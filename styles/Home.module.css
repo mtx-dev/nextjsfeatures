@@ -7,6 +7,18 @@
   min-height: 100vh;
 }
 
+.main h2 {
+  margin: 20px;
+}
+
+.main h3 {
+  margin: 15px;
+}
+
+.main li {
+  margin: 10px;
+}
+
 .description {
   display: inherit;
   justify-content: inherit;
