@@ -1,7 +1,7 @@
 .main {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   align-items: center;
   padding: 6rem;
   min-height: 100vh;
@@ -86,6 +86,7 @@
   width: 480px;
   height: 360px;
   margin-left: -400px;
+  z-index: -1;
 }
 
 .center::after {
@@ -150,6 +151,29 @@
   );
   background-clip: content-box;
 }
+
+
+
+
+.routes ul {
+  font-size: 20px;
+}
+
+.routes ul li {
+  padding: 1rem 1.2rem;
+}
+
+.routes ul li button{
+  padding: 10px;
+}
+
+.arrow {
+  font-size: 40px;
+}
+.fetching{
+  margin: 30px;
+}
+
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
