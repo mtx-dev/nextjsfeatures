@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Header() {
   return (
-	<div className={styles.grid}>
+	<nav className={styles.grid}>
 		<Link href={'/'} className={styles.card}>
 			<h2 className={inter.className}>
 				Home <span>-&gt;</span>
@@ -25,17 +25,12 @@ export default function Header() {
 			</h2>
 		</Link>
 
-		<a
-			href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-			className={styles.card}
-			rel="noopener noreferrer"
-		>
+		<Link href={'/image'} className={styles.card}>
 			<h2 className={inter.className}>
-			Templates <span>-&gt;</span>
+			 Image <span>-&gt;</span>
 			</h2>
+		</Link>
 
-		</a>
-
-	</div>
+	</nav>
   )
 }
