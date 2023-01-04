@@ -182,10 +182,14 @@
 .arrow {
   font-size: 40px;
 }
+
 .fetching{
   margin: 30px;
 }
 
+.distance {
+  height: 2000px;
+}
 
 /* Enable hover only on non-touch devices */
 @media (hover: hover) and (pointer: fine) {
